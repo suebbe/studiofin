@@ -7,8 +7,9 @@
 }
 
 .personel-card {
-  max-width: 350px;
+  max-width: 300px;
   min-width: 220px;
+  min-height: 570px;
   margin: auto;
   opacity: .8;
   background: black;
