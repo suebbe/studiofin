@@ -109,7 +109,7 @@ _displayPage = () => {
             { this._displayPage() }
           </div>
           <br/>
-          <hr/>
+          <hr className="bottom-hr"/>
         </div>
         <Footer />
       </div>

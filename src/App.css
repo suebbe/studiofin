@@ -34,3 +34,7 @@ hr {
 .main-hr {
   margin-bottom: -50px;
 }
+
+.bottom-hr {
+  margin-top: -8px;
+}
