@@ -22,7 +22,7 @@ class Treatments extends Component {
                 <h4 className="card-title">PhiBrows</h4>
                 <a href="https://www.bokadirekt.se/places/studiofin-15620" className="btn booking-button z-depth-4">Bokning</a>
                 <hr className="card-break"/>
-                <p className="card-text z-depth-3">
+                <p className="card-text z-depth-4">
                     PhiBrows 3D-Tatuering är en semi-permanent tatuering
                     kallad pigmentering med stråteknik för ett naturtroget utseende.
                     Pigmentering är till för att tillsätta strån där det saknas i
