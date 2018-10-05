@@ -30,3 +30,7 @@ hr {
 .main-container {
   margin-top: 40px;
 }
+
+.main-hr {
+  margin-bottom: -50px;
+}

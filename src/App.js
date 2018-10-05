@@ -77,33 +77,33 @@ _displayPage = () => {
             <div className="collapse navbar-collapse"  id="navbarNavDropdown">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a onClick={this._clickedMenuOption} className="nav-link link navbar-collapse" data-toggle="collapse" data-target="#navbarNavDropdown" name="Home">Hem </a>
+                  <a onClick={this._clickedMenuOption} className="nav-link text-white navbar-collapse" data-toggle="collapse" data-target="#navbarNavDropdown" name="Home">Hem </a>
                 </li>
                 <hr/>
                 <li className="nav-item">
-                  <a onClick={this._clickedMenuOption} className="nav-link link navbar-collapse" data-toggle="collapse" data-target="#navbarNavDropdown" name="Treatments">Behandlingar</a>
+                  <a onClick={this._clickedMenuOption} className="nav-link link text-white navbar-collapse" data-toggle="collapse" data-target="#navbarNavDropdown" name="Treatments">Behandlingar</a>
                 </li>
                 <hr/>
                 <li className="nav-item">
-                  <a onClick={this._clickedMenuOption} className="nav-link link navbar-collapse" data-toggle="collapse" data-target="#navbarNavDropdown" name="About">Om oss</a>
+                  <a onClick={this._clickedMenuOption} className="nav-link link text-white navbar-collapse" data-toggle="collapse" data-target="#navbarNavDropdown" name="About">Om oss</a>
                 </li>
                 <hr/>
                 <li className="nav-item">
-                  <a onClick={this._clickedMenuOption} className="nav-link link navbar-collapse" data-toggle="collapse" data-target="#navbarNavDropdown" name="Images">Bilder</a>
+                  <a onClick={this._clickedMenuOption} className="nav-link link text-white navbar-collapse" data-toggle="collapse" data-target="#navbarNavDropdown" name="Images">Bilder</a>
                 </li>
                 <hr/>
                 <li className="nav-item">
-                  <a onClick={this._clickedMenuOption} className="nav-link link navbar-collapse" data-toggle="collapse" data-target="#navbarNavDropdown" name="BeforeVisit">Inför besök</a>
+                  <a onClick={this._clickedMenuOption} className="nav-link link text-white navbar-collapse" data-toggle="collapse" data-target="#navbarNavDropdown" name="BeforeVisit">Inför besök</a>
                 </li>
                 <hr/>
                 <li className="nav-item mb-5">
-                  <a onClick={this._clickedMenuOption} className="nav-link link navbar-collapse" data-toggle="collapse" data-target="#navbarNavDropdown" name="Contact">Kontakt</a>
+                  <a onClick={this._clickedMenuOption} className="nav-link link text-white navbar-collapse" data-toggle="collapse" data-target="#navbarNavDropdown" name="Contact">Kontakt</a>
                 </li>
               </ul>
             </div>
           </nav>
         </div>
-        <hr/>
+        <hr className="main-hr"/>
         <div className="main-container">
           <div className="col s6 center-align">
             { this._displayPage() }
