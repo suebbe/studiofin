@@ -69,7 +69,7 @@ _displayPage = () => {
       <div className="App">
         <Nav />
         <div className="menu-container">
-          <nav className="navbar navbar-dark top-menu">
+          <nav className="navbar bg-transparent top-menu">
             <a className="navbar-brand" href="#"></a>
             <button className="navbar-toggler z-depth-2" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>

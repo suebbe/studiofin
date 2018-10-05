@@ -13,7 +13,7 @@ class Nav extends Component {
   render(){
 
     return (
-      <div className="nav-container">
+      <div className="nav-container slide-up">
 
           <div className="col s12 center-align">
             <img className="logo" src={studiofinlogo} width="280"/>

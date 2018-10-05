@@ -27,12 +27,6 @@ button:focus {
 
 }
 
-.slogan {
-  color: white;
-  font-weight: bold;
-  margin-top: -200px;
-}
-
 .proffs {
   font-size: 2em;
   font-weight: lighter;
@@ -43,11 +37,7 @@ button:focus {
 .salong {
   color: white;
   font-style: italic;
-}
-
-.dropdown-item {
-  padding: 10px;
-  color: #AD974F;
+  opacity: .8;
 }
 
 .logo {
@@ -56,53 +46,36 @@ button:focus {
   min-width: 250px;
   width: 20%;
   margin: auto;
+  opacity: .9;
+}
+
+
+.dropdown-item {
+  padding: 10px;
+  color: #AD974F;
 }
 
 .navbar-collapse {
   font-size: 1.1em;
 }
 
-.navbar {
-  background-color: #231F20;
+div.slide-up {
+  overflow:hidden;
 }
 
-.shimmer {
-    margin-top: 25px;
-    font-size: 21px;
-    text-align: center;
-
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 2s;
+div.slide-up .logo {
+  animation: 2s slide-up;
+  margin-top:0%;
 }
 
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
+@keyframes slide-up {
+  from {
+    margin-top: -10%;
+    height: 100%;
+  }
 
-/* Firefox < 16 */
-@-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Internet Explorer */
-@-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Opera < 12.1 */
-@-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  to {
+    margin-top: 0%;
+    height: 100%;
+  }
 }
