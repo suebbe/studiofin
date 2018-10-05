@@ -1,0 +1,93 @@
+.treatments-container {
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.treat-ad {
+  max-width: 307px;
+  height: 380px;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.card-body {
+  color: black;
+  height: 300px;
+  max-height: 380px;
+  text-align: center;
+  height: 100%;
+
+}
+
+.phiBrows {
+  background-image:url(https://static.wixstatic.com/media/2e6179_6dcbddc09f474b11b0cae3e348a357c9~mv2.jpg/v1/fill/w_330,h_200,al_c,q_80,usm_0.66_1.00_0.01/2e6179_6dcbddc09f474b11b0cae3e348a357c9~mv2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  width: auto;
+  height: 380px;
+  opacity: .8;
+
+}
+
+.phiContour{
+  background-image:url(https://static.wixstatic.com/media/2e6179_a1f85987ae494d2c934e6f60b4d1ddf0~mv2.jpg/v1/fill/w_330,h_200,al_c,q_80,usm_0.66_1.00_0.01/2e6179_a1f85987ae494d2c934e6f60b4d1ddf0~mv2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  width: auto;
+  height: 380px;
+  opacity: .8;
+
+}
+
+.lashExtension {
+  background-image:url(https://static.wixstatic.com/media/2e6179_087060a1e0424f2c9eb0a63e253d3d14~mv2.jpg/v1/fill/w_330,h_200,al_c,lg_1,q_80/2e6179_087060a1e0424f2c9eb0a63e253d3d14~mv2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  width: auto;
+  height: 380px;
+  opacity: .8;
+
+}
+
+.lashLift {
+  background-image:url(https://static.wixstatic.com/media/2e6179_f2b1f11f0f7444568bb1e355e6f53117~mv2.jpg/v1/fill/w_330,h_200,al_c,q_80,usm_0.66_1.00_0.01/2e6179_f2b1f11f0f7444568bb1e355e6f53117~mv2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  width: auto;
+  height: 380px;
+  opacity: .8;
+
+}
+
+.treat-ad {
+  max-width: 350px;
+}
+
+.card-text {
+  font-size: 1em;
+  font-weight: 200;
+  background-color: #231F20;
+  color: #edb371;
+  margin-top: 0px;
+
+}
+
+.booking-button {
+  margin-top: 80px;
+  background: #edb371;
+  color: #231F20;
+  font-weight: bold;
+}
+
+.card-break {
+  border-color: black;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}

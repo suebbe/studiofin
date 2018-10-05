@@ -1,0 +1,14 @@
+.home-container {
+  width: 100%;
+  max-width: 900px;
+  padding: 0;
+  text-align: center;
+}
+
+.slider {
+  padding: 0;
+}
+
+.slide-image {
+  padding:0;
+}

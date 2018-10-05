@@ -1,0 +1,23 @@
+.top-menu {
+  max-width: 750px;;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.menu-container {
+  
+}
+
+.menu-button {
+  float: left;
+}
+
+a:hover {
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+a:checked {
+  color: white;
+}
