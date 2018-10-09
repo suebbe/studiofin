@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Nav from './components/nav/Nav';
+
 import Home from './components/home/Home';
 import About from './components/about/About';
 import Footer from './components/footer/Footer';
@@ -9,6 +9,8 @@ import BeforeVisit from './components/beforeVisit/BeforeVisit';
 import Contact from './components/contact/Contact';
 import Images from './components/images/Images';
 import Treatments from './components/treatments/Treatments';
+
+import studiofinlogo from './images/studiofinlogo.png';
 
 
 class App extends Component {
@@ -30,6 +32,8 @@ _clickedMenuOption = (event) => {
     this.setState({page: 'beforeVisit'})
   } else if ( event.target.name === 'Contact') {
     this.setState({page: 'contact'})
+  } else if ( event.target.name === 'logo') {
+    this.setState({page: 'home'})
   }
   console.log(this.state.page)
 }
@@ -67,7 +71,17 @@ _displayPage = () => {
 
     return (
       <div className="App">
-        <Nav />
+      <div className="nav-container slide-up">
+
+          <div className="col s12 center-align">
+            <a name="logo" onClick={this._clickedMenuOption}>
+              <img className="logo" name="logo" src={studiofinlogo} width="280"/>
+            </a>
+            <h1 className="proffs">PROFFS PÅ SKÖNHET <br/>OCH HUDVÅRD</h1>
+            <p className="salong">Din skönhetssalong i Östra Kanalstaden</p>
+
+        </div>
+      </div>
         <div className="menu-container">
           <nav className="navbar bg-transparent top-menu">
             <a className="navbar-brand" href="#"></a>

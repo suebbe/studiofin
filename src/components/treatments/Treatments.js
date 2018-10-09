@@ -13,9 +13,9 @@ class Treatments extends Component {
 
 
 
-        <div className="treatments-container mt-5">
-        <br/>
-          <div className="col s12 center-align">
+      <div className="treatments-container mt-5">
+      <br/>
+        <div className="col s12 center-align">
           <div className="card-group">
             <div className="card personel-card z-depth-3">
               <img className="card-img-top" src="https://static.wixstatic.com/media/2e6179_6dcbddc09f474b11b0cae3e348a357c9~mv2.jpg/v1/fill/w_330,h_200,al_c,q_80,usm_0.66_1.00_0.01/2e6179_6dcbddc09f474b11b0cae3e348a357c9~mv2.webp" alt="Card image cap"/>
@@ -80,8 +80,51 @@ class Treatments extends Component {
               </div>
             </div>
           </div>
+          <div className="card-group">
+          <div className="card personel-card z-depth-3">
+            <img className="card-img-top" src="https://static.wixstatic.com/media/3b102c72e1345def15ee3e1d57008ff8.jpg/v1/fill/w_330,h_200,al_c,q_80,usm_0.66_1.00_0.01/3b102c72e1345def15ee3e1d57008ff8.webp" alt="Card image cap"/>
+            <div className="card-body about-body">
+              <h5 className="card-title">Klassisk Massage</h5>
+              <hr/>
+                <p className="card-text">
+                  En klassisk helkroppsmassage med olja. Vi masserar Rygg, nacke,
+                  ben, mage, armar, händer och hårbotten.
+                </p>
+              <a href="https://www.bokadirekt.se/places/studiofin-15620" className="btn booking-button z-depth-4">Bokning</a>
+            </div>
+          </div>
+          <div className="card personel-card z-depth-3">
+            <img className="card-img-top" src="https://static.wixstatic.com/media/7fe6b83b5b1d49b39282cb977d925463.jpg/v1/fill/w_330,h_200,al_c,q_80,usm_0.66_1.00_0.01/7fe6b83b5b1d49b39282cb977d925463.webp" alt="Card image cap"/>
+            <div className="card-body about-body">
+              <h5 className="card-title">Ansiktsbehandlingar</h5>
+              <hr/>
+                <p className="card-text">
+                Lashlift är den senaste i trenden av skönhetsbehandlingar som
+                ger ett magiskt lyft. Med vattenbaserade produkter får du en
+                semi-permanent böjning av dina fransar som håller upp till 8
+                veckor. Efter behandlingen avslutar vi med färgning av fransarna
+                vilket ger ett fylligare resultat.
+                </p>
+              <a href="https://www.bokadirekt.se/places/studiofin-15620" className="btn booking-button z-depth-4">Bokning</a>
+            </div>
+          </div>
+        </div>
+        <div className="card-group">
+         <div className="card personel-card z-depth-3">
+          <img className="card-img-top" src="https://static.wixstatic.com/media/50f081f5e7ffa1ca27c5effa9f08d1f8.jpg/v1/fill/w_330,h_200,al_c,q_80,usm_0.66_1.00_0.01/50f081f5e7ffa1ca27c5effa9f08d1f8.webp" alt="Card image cap"/>
+          <div className="card-body about-body">
+            <h5 className="card-title">Vaxning</h5>
+            <hr/>
+              <p className="card-text">
+                Vaxning hos StudioFin utförs med sockervax. Det är skonsammare mot
+                huden och skapar ett resultat utöver det vanliga.
+              </p>
+            <a href="https://www.bokadirekt.se/places/studiofin-15620" className="btn booking-button z-depth-4">Bokning</a>
+          </div>
         </div>
       </div>
+    </div>
+  </div>
 
 
 
