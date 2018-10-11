@@ -1,6 +1,6 @@
 .nav-container {
   padding-bottom: 50px;
-  background: radial-gradient(to bottom right, #edb371 2%, #231F20 80%);
+  background: radial-gradient(to bottom right, grey 2%, #231F20 80%);
   width: 100%;
 }
 
@@ -14,16 +14,17 @@
   border: none;
   box-shadow: none;
   background-color: black;
+  margin-bottom: -5px;
 }
 
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(173,151,79, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-.slogan {
-  color: white;
-  font-weight: bold;
-  margin-top: -200px;
+button:focus {
+  outline: 0px dotted;
+  outline: 5px auto -webkit-focusring-color;
+
 }
 
 .proffs {
@@ -36,56 +37,45 @@
 .salong {
   color: white;
   font-style: italic;
+  opacity: .8;
 }
+
+.logo {
+  margin-top: -50px;
+  margin-bottom: -300px;
+  min-width: 250px;
+  width: 20%;
+  margin: auto;
+  opacity: .9;
+}
+
 
 .dropdown-item {
   padding: 10px;
   color: #AD974F;
 }
 
-.logo {
-  margin-top: -50px;
-  margin-bottom: -300px;
-  min-width: 350px;
-  width: 20%;
-  margin: auto;
-}
-
 .navbar-collapse {
-  text-shadow: 1px white;
   font-size: 1.1em;
-  font-weight: bold;
 }
 
-.navbar {
-  background-color: #231F20;
+div.slide-up {
+  overflow:hidden;
 }
 
-.shimmer {
-  display: inline-block;
-  color:blue;
-  background: #acacac -webkit-gradient(linear, 100% 0, 0 0, from(#acacac), color-stop(0.5, #ffffff), to(#acacac));
-  background-position: -4rem top; /*50px*/
-  background-repeat: no-repeat;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-animation-name: shimmer;
-  -webkit-animation-duration: 4.2s;
-  -webkit-animation-iteration-count: 1;
-  -webkit-background-size: 5rem 100%; /*50px*/
-
+div.slide-up .logo {
+  animation: 2s slide-up;
+  margin-top:0%;
 }
 
-@-webkit-keyframes shimmer {
-    0% {
-        background-position: -4rem top; /*50px*/
-    }
+@keyframes slide-up {
+  from {
+    margin-top: -10%;
+    height: 100%;
+  }
 
-    70% {
-        background-position: 12.5rem top; /*200px*/
-    }
-
-    100% {
-        background-position: 14.5rem top; /*200px*/
-    }
+  to {
+    margin-top: 0%;
+    height: 100%;
+  }
 }

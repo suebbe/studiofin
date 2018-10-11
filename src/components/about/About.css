@@ -7,14 +7,21 @@
 }
 
 .personel-card {
-  max-width: 350px;
+  max-width: 300px;
   min-width: 220px;
+  min-height: 540px;
   margin: auto;
+  opacity: .8;
+  background: black;
+}
 
+.card-title {
+  color: #edb371;
 }
 
 .about-body {
   max-height: 220px;
+  opacity: .8;
 }
 
 .welcome-text {

@@ -270,6 +270,10 @@ input::-ms-input-placeholder {
   color: #9599a0;
 }
 
+.text-yellow {
+  color: #edb371;
+}
+
 .text-green {
   color: #3fe07f;
 }
